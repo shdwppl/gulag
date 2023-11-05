@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>90s BBS Style Landing Page</title>
+<style>
+  body {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #00ff00;
+  }
+
+  .main-content {
+    white-space: pre;
+  }
+
+  a {
+    color: #00ff00;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Welcome to the Retro BBS Landing Page!</h1>
+  </div>
+  <div class="main-content">
+    _________________________________________________________________
+    |                                                               |
+    |  -=[ Welcome to our BBS Landing Page! ]=-                     |
+    |                                                               |
+    |  > 1. About Us                                                |
+    |  > 2. Services                                                |
+    |  > 3. Contact                                                 |
+    |  > 4. Login                                                   |
+    |                                                               |
+    |  Choose an option by clicking or enter the number:            |
+    |                                                               |
+    |  [1] <a href="#about">About Us</a>                            |
+    |  [2] <a href="#services">Services</a>                         |
+    |  [3] <a href="#contact">Contact</a>                           |
+    |  [4] <a href="#login">Login</a>                               |
+    |                                                               |
+    |_______________________________________________________________|
+  </div>
+</div>
+</body>
+</html>
